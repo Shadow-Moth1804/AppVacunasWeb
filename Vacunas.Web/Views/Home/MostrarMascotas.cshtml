@@ -1,0 +1,79 @@
+﻿@model IEnumerable<Vacunas.Datos.Entidades.Mascota>
+
+@{
+    ViewData["Title"] = "MostrarMascotas";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Lista de Mascotas</h1>
+
+<p>
+    <a asp-action="GuardarMascota">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.PetId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PetName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.OwnerName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Breed)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Gender)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Dateb)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AddData)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Status)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.PetId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PetName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.OwnerName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Breed)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Gender)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Dateb)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AddData)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Status)
+            </td>
+            <td>
+                <a asp-action="EditarDueño" asp-controller="Dueño" class="btn btn-primary btn-sm" asp-route-PetId="@item.PetId">Editar</a>
+                    <a asp-action="EliminarMascota" asp-controller="Home" class="btn btn-danger btn-sm" asp-route-PetId="@item.PetId">Eliminar</a>
+                    <a asp-action="GuardarRegistro" asp-controller="Historial" asp-route-PetId="@item.PetId" class="btn btn-primary btn-sm">Registrar Vacunacion</a>
+                
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

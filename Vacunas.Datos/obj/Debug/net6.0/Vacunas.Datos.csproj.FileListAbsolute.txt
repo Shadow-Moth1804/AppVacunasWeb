@@ -1,0 +1,46 @@
+C:\Users\jesus\source\repos\AppVacunas\Vacunas.Datos\obj\Debug\net6.0\Vacunas.Datos.csproj.AssemblyReference.cache
+C:\Users\jesus\source\repos\AppVacunas\Vacunas.Datos\obj\Debug\net6.0\Vacunas.Datos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jesus\source\repos\AppVacunas\Vacunas.Datos\obj\Debug\net6.0\Vacunas.Datos.AssemblyInfoInputs.cache
+C:\Users\jesus\source\repos\AppVacunas\Vacunas.Datos\obj\Debug\net6.0\Vacunas.Datos.AssemblyInfo.cs
+C:\Users\jesus\source\repos\AppVacunas\Vacunas.Datos\obj\Debug\net6.0\Vacunas.Datos.csproj.CoreCompileInputs.cache
+D:\Programas C#\AppVacunas\Vacunas.Datos\obj\Debug\net6.0\Vacunas.Datos.csproj.AssemblyReference.cache
+D:\Programas C#\AppVacunas\Vacunas.Datos\obj\Debug\net6.0\Vacunas.Datos.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programas C#\AppVacunas\Vacunas.Datos\obj\Debug\net6.0\Vacunas.Datos.AssemblyInfoInputs.cache
+D:\Programas C#\AppVacunas\Vacunas.Datos\obj\Debug\net6.0\Vacunas.Datos.AssemblyInfo.cs
+D:\Programas C#\AppVacunas\Vacunas.Datos\obj\Debug\net6.0\Vacunas.Datos.csproj.CoreCompileInputs.cache
+C:\Users\jesus\Downloads\AppVacunas\Vacunas.Datos\bin\Debug\net6.0\Vacunas.Datos.deps.json
+C:\Users\jesus\Downloads\AppVacunas\Vacunas.Datos\bin\Debug\net6.0\Vacunas.Datos.dll
+C:\Users\jesus\Downloads\AppVacunas\Vacunas.Datos\bin\Debug\net6.0\Vacunas.Datos.pdb
+C:\Users\jesus\Downloads\AppVacunas\Vacunas.Datos\obj\Debug\net6.0\Vacunas.Datos.csproj.AssemblyReference.cache
+C:\Users\jesus\Downloads\AppVacunas\Vacunas.Datos\obj\Debug\net6.0\Vacunas.Datos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jesus\Downloads\AppVacunas\Vacunas.Datos\obj\Debug\net6.0\Vacunas.Datos.AssemblyInfoInputs.cache
+C:\Users\jesus\Downloads\AppVacunas\Vacunas.Datos\obj\Debug\net6.0\Vacunas.Datos.AssemblyInfo.cs
+C:\Users\jesus\Downloads\AppVacunas\Vacunas.Datos\obj\Debug\net6.0\Vacunas.Datos.csproj.CoreCompileInputs.cache
+C:\Users\jesus\Downloads\AppVacunas\Vacunas.Datos\obj\Debug\net6.0\Vacunas.Datos.dll
+C:\Users\jesus\Downloads\AppVacunas\Vacunas.Datos\obj\Debug\net6.0\refint\Vacunas.Datos.dll
+C:\Users\jesus\Downloads\AppVacunas\Vacunas.Datos\obj\Debug\net6.0\Vacunas.Datos.pdb
+C:\Users\jesus\Downloads\AppVacunas\Vacunas.Datos\obj\Debug\net6.0\ref\Vacunas.Datos.dll
+D:\Web HTML\AppVacunas\Vacunas.Datos\bin\Debug\net6.0\Vacunas.Datos.deps.json
+D:\Web HTML\AppVacunas\Vacunas.Datos\bin\Debug\net6.0\Vacunas.Datos.dll
+D:\Web HTML\AppVacunas\Vacunas.Datos\bin\Debug\net6.0\Vacunas.Datos.pdb
+D:\Web HTML\AppVacunas\Vacunas.Datos\obj\Debug\net6.0\Vacunas.Datos.csproj.AssemblyReference.cache
+D:\Web HTML\AppVacunas\Vacunas.Datos\obj\Debug\net6.0\Vacunas.Datos.GeneratedMSBuildEditorConfig.editorconfig
+D:\Web HTML\AppVacunas\Vacunas.Datos\obj\Debug\net6.0\Vacunas.Datos.AssemblyInfoInputs.cache
+D:\Web HTML\AppVacunas\Vacunas.Datos\obj\Debug\net6.0\Vacunas.Datos.AssemblyInfo.cs
+D:\Web HTML\AppVacunas\Vacunas.Datos\obj\Debug\net6.0\Vacunas.Datos.csproj.CoreCompileInputs.cache
+D:\Web HTML\AppVacunas\Vacunas.Datos\obj\Debug\net6.0\Vacunas.Datos.dll
+D:\Web HTML\AppVacunas\Vacunas.Datos\obj\Debug\net6.0\refint\Vacunas.Datos.dll
+D:\Web HTML\AppVacunas\Vacunas.Datos\obj\Debug\net6.0\Vacunas.Datos.pdb
+D:\Web HTML\AppVacunas\Vacunas.Datos\obj\Debug\net6.0\ref\Vacunas.Datos.dll
+F:\AppVacunas\Vacunas.Datos\bin\Debug\net6.0\Vacunas.Datos.deps.json
+F:\AppVacunas\Vacunas.Datos\bin\Debug\net6.0\Vacunas.Datos.dll
+F:\AppVacunas\Vacunas.Datos\bin\Debug\net6.0\Vacunas.Datos.pdb
+F:\AppVacunas\Vacunas.Datos\obj\Debug\net6.0\Vacunas.Datos.csproj.AssemblyReference.cache
+F:\AppVacunas\Vacunas.Datos\obj\Debug\net6.0\Vacunas.Datos.GeneratedMSBuildEditorConfig.editorconfig
+F:\AppVacunas\Vacunas.Datos\obj\Debug\net6.0\Vacunas.Datos.AssemblyInfoInputs.cache
+F:\AppVacunas\Vacunas.Datos\obj\Debug\net6.0\Vacunas.Datos.AssemblyInfo.cs
+F:\AppVacunas\Vacunas.Datos\obj\Debug\net6.0\Vacunas.Datos.csproj.CoreCompileInputs.cache
+F:\AppVacunas\Vacunas.Datos\obj\Debug\net6.0\Vacunas.Datos.dll
+F:\AppVacunas\Vacunas.Datos\obj\Debug\net6.0\refint\Vacunas.Datos.dll
+F:\AppVacunas\Vacunas.Datos\obj\Debug\net6.0\Vacunas.Datos.pdb
+F:\AppVacunas\Vacunas.Datos\obj\Debug\net6.0\ref\Vacunas.Datos.dll

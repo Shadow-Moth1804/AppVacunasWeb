@@ -1,0 +1,70 @@
+﻿@model Vacunas.Datos.Entidades.MascotaVM
+
+@{
+    ViewData["Title"] = "GuardarMascota";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="card">
+  <div class="card-header">
+    Nueva Mascota
+  </div>
+  <div class="card-body">
+      <form asp-action="GuardarMascota" asp-controller="Home" method="post">
+          <h1 style="font-size:12pt">Datos del dueño</h1>
+          <div class="mb-3">
+              <label class="form-label">Nombre(s)</label>
+              <input asp-for = "FirstName" type="text" class="form-control">
+              <span asp-validation-for="FirstName" class="text-danger"></span>
+          </div>
+          <div class="mb-3">
+              <label class="form-label">Apellido(s)</label>
+              <input asp-for = "LastName" type="text" class="form-control">
+              <span asp-validation-for="LastName" class="text-danger"></span>
+          </div>
+          <div class="mb-3">
+              <label class="form-label">Telefono</label>
+              <input asp-for = "Phone" type="text" class="form-control">
+              <span asp-validation-for="Phone" class="text-danger"></span>
+          </div>
+          <div class="mb-3">
+              <label class="form-label">Email</label>
+              <input asp-for = "Email" type="text" class="form-control">
+              <span asp-validation-for="Email" class="text-danger"></span>
+          </div>
+          <div class="mb-3">
+              <label class="form-label">Informacion adicional</label>
+              <input asp-for = "ClientAdData" type="text" class="form-control">
+              <span asp-validation-for="ClientAdData" class="text-danger"></span>
+          </div>
+          <h1 style="font-size:12pt">Datos de la mascota</h1>
+          <div class="mb-3">
+              <label class="form-label">Nombre</label>
+              <input asp-for = "PetName" type="text" class="form-control">
+              <span asp-validation-for="PetName" class="text-danger"></span>
+          </div>
+          <div class="mb-3">
+              <label class="form-label">Raza</label>
+              <input asp-for = "Breed" type="text" class="form-control">
+              <span asp-validation-for="Breed" class="text-danger"></span>
+          </div>
+          <div class="mb-3">
+              <label class="form-label">Genero</label>
+              <input asp-for = "Gender" type="text" class="form-control">
+              <span asp-validation-for="Gender" class="text-danger"></span>
+          </div>
+          <div class="mb-3">
+              <label class="form-label">Fecha de nacimiento</label>
+              <input asp-for = "Dateb" type="date" class="form-control">
+              <span asp-validation-for="Dateb" class="text-danger"></span>
+          </div>
+          <div class="mb-3">
+              <label class="form-label">Observaciones</label>
+              <input asp-for = "PetAddData" type="text" class="form-control">
+              <span asp-validation-for="PetAddData" class="text-danger"></span>
+          </div>
+          <button type="submit" class="btn btn-primary">Aceptar</button>
+          <a asp-action="MostrarMascotas">Ver lista de mascotas</a>
+      </form>
+  </div>
+</div>

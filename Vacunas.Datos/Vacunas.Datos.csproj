@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Entidades\Historial.cs~RF11041e42.TMP" />
+    <None Remove="Entidades\Mascota.cs~RF6468123.TMP" />
+    <None Remove="Repositorio\IDueñoRepositorio.cs~RFf463732.TMP" />
+    <None Remove="Repositorio\IMascotaRepositorio.cs~RFb522f2e.TMP" />
+    <None Remove="Repositorio\IVacunaRepositorio.cs~RFc03accd.TMP" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Options" Version="6.0.0" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.5" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,36 @@
+﻿@model IEnumerable<Vacunas.Datos.Entidades.Historial>
+@{
+    ViewData["Title"] = "ObtenerHistorial";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Obtener Historial</h1>
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Nombre de mascota</th>
+            <th>Vacuna</th>
+            <th>Peso</th>
+            <th>Fecha</th>
+            <th>Etapa</th>
+            <th>Doctor</th>
+            <th>estado</th>
+        </tr>
+    </thead>
+    <tbody>
+            @foreach(var item in Model)
+            {
+                <tr>
+                    <td>@item.HId</td>
+                    <td>@item.PetName</td>
+                    <td>@item.Vaccine</td>
+                    <td>@item.Weight</td>
+                    <td>@item.Date</td>
+                    <td>@item.Satage</td>
+                    <td>@item.NameDoctor</td>
+                    <td>@item.Status</td>
+                </tr>
+            }
+    </tbody>
+</table>

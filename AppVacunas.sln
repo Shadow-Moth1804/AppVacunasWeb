@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32929.385
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vacunas.Datos", "Vacunas.Datos\Vacunas.Datos.csproj", "{3C93129B-80E1-41DC-AEE8-1D2FC3AAFD93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vacunas.Web", "Vacunas.Web\Vacunas.Web.csproj", "{F79866BF-2D9E-4C5A-83DD-630DC7A5203B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3C93129B-80E1-41DC-AEE8-1D2FC3AAFD93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C93129B-80E1-41DC-AEE8-1D2FC3AAFD93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C93129B-80E1-41DC-AEE8-1D2FC3AAFD93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C93129B-80E1-41DC-AEE8-1D2FC3AAFD93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F79866BF-2D9E-4C5A-83DD-630DC7A5203B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F79866BF-2D9E-4C5A-83DD-630DC7A5203B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F79866BF-2D9E-4C5A-83DD-630DC7A5203B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F79866BF-2D9E-4C5A-83DD-630DC7A5203B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C8416149-E202-4925-93B8-533B97F0AA51}
+	EndGlobalSection
+EndGlobal

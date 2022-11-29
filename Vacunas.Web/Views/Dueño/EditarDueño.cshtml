@@ -1,0 +1,46 @@
+﻿@model Vacunas.Datos.Entidades.MascotaVM
+
+@{
+    ViewData["Title"] = "EditarDueño";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="card">
+  <div class="card-header">
+    Editar datos de dueño o mascota
+  </div>
+  <div class="card-body">
+      <form asp-action="EditarDueño" asp-controller="Dueño" method="post">
+          <h1 style="font-size:12pt">Datos del dueño</h1>
+            <input asp-for="OwnerId" type="hidden" class="form-control">
+          <div class="mb-3">
+              <label class="form-label">Nombre(s)</label>
+              <input asp-for = "FirstName" type="text" class="form-control">
+              <span asp-validation-for="FirstName" class="text-danger"></span>
+          </div>
+          <div class="mb-3">
+              <label class="form-label">Apellido(s)</label>
+              <input asp-for = "LastName" type="text" class="form-control">
+              <span asp-validation-for="LastName" class="text-danger"></span>
+          </div>
+          <div class="mb-3">
+              <label class="form-label">Telefono</label>
+              <input asp-for = "Phone" type="text" class="form-control">
+              <span asp-validation-for="Phone" class="text-danger"></span>
+          </div>
+          <div class="mb-3">
+              <label class="form-label">Email</label>
+              <input asp-for = "Email" type="text" class="form-control">
+              <span asp-validation-for="Email" class="text-danger"></span>
+          </div>
+          <div class="mb-3">
+              <label class="form-label">Informacion adicional</label>
+              <input asp-for = "ClientAdData" type="text" class="form-control">
+              <span asp-validation-for="ClientAdData" class="text-danger"></span>
+          </div>
+          <button type="submit" class="btn btn-primary">Aceptar</button>
+          <a asp-action="MostrarMascotas" asp-controller="Home">Ver lista de mascotas</a>
+      </form>
+  </div>
+</div>
+

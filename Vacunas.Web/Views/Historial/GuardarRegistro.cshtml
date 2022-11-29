@@ -1,0 +1,54 @@
+﻿@model Vacunas.Datos.Entidades.Historial
+
+@{
+    ViewData["Title"] = "GuardarRegistro";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Nuevo Registro</h1>
+
+<div class="card">
+    <div class="card-header">
+        Datos del registro
+    </div>
+    <div class="card-body">
+        <form asp-action="GuardarRegistro" asp-controller="Historial" method="post">
+            <input asp-for="IdPet" type="hidden" class="form-control">
+            <h1 style="font-size:12pt">Datos de la mascota</h1>
+            <div class="mb-3">
+                <label class="form-label">Nombre</label>
+                <input asp-for="PetName" type="text" class="form-control">
+                <span asp-validation-for="PetName" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Peso</label>
+                <input asp-for="Weight" type="text" class="form-control">
+                <span asp-validation-for="Weight" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Etapa</label>
+                <input asp-for="Satage" type="text" class="form-control">
+                <span asp-validation-for="Satage" class="text-danger"></span>
+            </div>
+            <h1 style="font-size:12pt">Datos de la vacuna</h1>
+            <div class="mb-3">
+                <label class="form-label">Nombre</label>
+                <input asp-for="Vaccine" type="text" class="form-control">
+                <span asp-validation-for="Vaccine" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Fecha de aplicacion</label>
+                <input asp-for="Date" type="date" class="form-control">
+                <span asp-validation-for="Date" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Veterinario que la aplica</label>
+                <input asp-for="NameDoctor" type="text" class="form-control">
+                <span asp-validation-for="NameDoctor" class="text-danger"></span>
+            </div>
+            <button type="submit" class="btn btn-primary">Aceptar</button>
+            <a asp-action="ObtenerHistorial" asp-controller="Historial">Ver vacunas registradas</a>
+        </form>
+    </div>
+</div>
+

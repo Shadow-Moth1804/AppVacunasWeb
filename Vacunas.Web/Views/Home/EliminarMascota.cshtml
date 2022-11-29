@@ -1,0 +1,23 @@
+﻿@model Vacunas.Datos.Entidades.Mascota
+@{
+    ViewData["Title"] = "EliminarMascota";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="card">
+    <div class="card-header">
+        Eliminar Mascota
+    </div>
+    <div class="card-body">
+        <form asp-action="EliminarMascota" asp-controller="Home" method="post">
+            <input asp-for="PetId" type="hidden" class="form-control">
+
+            <div class="alert alert-danger" role="alert">
+                ¿Desea eliminar a la mascota : @Html.DisplayTextFor(m => m.PetName)?
+            </div>
+
+            <button type="submit" class="btn btn-danger">Aceptar</button>
+            <a asp-action="MostrarMascotas">Regresar</a>
+        </form>
+    </div>
+</div>

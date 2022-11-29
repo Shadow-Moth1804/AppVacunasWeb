@@ -1,0 +1,29 @@
+﻿@model Vacunas.Datos.Entidades.Vacuna
+
+@{
+    ViewData["Title"] = "GuardarVacuna";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="card">
+    <div class="card-header"> q
+        Registrar nueva Vacuna
+    </div>
+    <div class="card-body">
+        <form asp-action="GuardarVacuna" asp-controller="Vacuna" method="post">
+            <h1 style="font-size:12pt">Datos de la vacuna</h1>
+            <div class="mb-3">
+                <label class="form-label">Nombre</label>
+                <input asp-for="Name" type="text" class="form-control">
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Patogeno</label>
+                <input asp-for="Pathogen" type="text" class="form-control">
+                <span asp-validation-for="Pathogen" class="text-danger"></span>
+            </div>
+            <button type="submit" class="btn btn-primary">Aceptar</button>
+            <a asp-action="MostrarVacunas">Ver vacunas registradas</a>
+        </form>
+    </div>
+</div>
